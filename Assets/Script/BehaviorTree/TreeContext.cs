@@ -43,8 +43,9 @@ namespace BehaviorTree
                     {
                         break;
                     }
+                    node = node.Leave();
                 }
-                node = node.Leave();
+
             }
         }
 
